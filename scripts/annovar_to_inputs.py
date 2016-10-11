@@ -66,8 +66,7 @@ def writeGenotypeAndVariants(lists, op1, op2, enhancer_dict):
 				judgement, enhancer_id = judgeIfInsideEnhancerRegions(chromosome, start, enhancer_dict)
 				
 				if judgement:
-					######## I don't consider 0/0, 1/0, 1/1 conditions here!! Just run it first!
-					op1.write('vcf_%s:%s\t%s\t1\n' % (chromosome, start, sample))
+					op1.write('vcf_%s:%s\t%s\t%d\n' % (chromosome, start, sample, hom_or_het))
 					op2.write('vcf_%s:%s\t%s\tnoncoding\t%f\n' 
 						% (chromosome, start, enhancer_id, cadd))
 

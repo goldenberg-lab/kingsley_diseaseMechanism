@@ -1,0 +1,636 @@
+﻿
+track SJGROUP
+compositeTrack on
+subGroup1 subgroups SubGroups GROUP3=GROUP3 GROUP4=GROUP4 SHH=SHH UNKNOWN=UNKNOWN WNT=WNT
+subGroup2 assay Assay H3K27Ac=H3K27Ac LHX2=LHX2 LMX1A=LMX1A HLX=HLX
+dimensions dimX=subgroups dimY=assay
+sortOrder subgroups=+ assay=+
+type bigWig
+shortLabel Read count
+longLabel H3K27Ac and TF ChIP-Seq read count for each medulloblastoma sample
+visibility dense
+
+
+track SJSE
+compositeTrack on
+subGroup1 subgroups SubGroups GROUP3_SE=GROUP3 GROUP4_SE=GROUP4 GROUP3_GROUP4_SE=GROUP3_GROUP4 SHH_SE=SHH WNT_SE=WNT SHH_WNT_SE=SHH_WNT CONSERVED_SE=CONSERVED
+dimensions dimX=subgroups
+sortOrder subgroups=+
+type bigBed
+shortLabel Super enhancer
+longLabel Super enhancer called from each medulloblastoma subgroup
+visibility dense
+
+
+track 1M1_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/1M1_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel 1M1 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track D425_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/D425_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel D425 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track HD-MB03_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/HD-MB03_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel HD-MB03 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB-1M21_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB-1M21_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB-1M21 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB-4M23_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB-4M23_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB-4M23 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB-4M26_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB-4M26_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB-4M26 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB-4M77_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB-4M77_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB-4M77 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB110_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB110_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB110 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB113_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB113_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=WNT assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB113 WNT H3K27Ac
+type bigWig
+color 0,69,134
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB129_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB129_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB129 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB129_LHX2_treat_afterfiting_all.bw
+bigDataUrl tracks/MB129_LHX2_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=LHX2
+shortLabel  LHX2 ChIP
+longLabel MB129 GROUP4 LHX2
+type bigWig
+color 192,0,255
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB129_LMX1A_treat_afterfiting_all.bw
+bigDataUrl tracks/MB129_LMX1A_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=LMX1A
+shortLabel  LMX1A ChIP
+longLabel MB129 GROUP4 LMX1A
+type bigWig
+color 192,0,55
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB12_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB12_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=SHH assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB12 SHH H3K27Ac
+type bigWig
+color 192,0,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB176_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB176_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=WNT assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB176 WNT H3K27Ac
+type bigWig
+color 0,69,134
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB18_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB18_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB18 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB18_HLX_treat_afterfiting_all.bw
+bigDataUrl tracks/MB18_HLX_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=HLX
+shortLabel  HLX ChIP
+longLabel MB18 GROUP3 HLX
+type bigWig
+color 0,192,55
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB18_LHX2_treat_afterfiting_all.bw
+bigDataUrl tracks/MB18_LHX2_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=LHX2
+shortLabel  LHX2 ChIP
+longLabel MB18 GROUP3 LHX2
+type bigWig
+color 0,192,255
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB19_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB19_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB19 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB200_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB200_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=WNT assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB200 WNT H3K27Ac
+type bigWig
+color 0,69,134
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB206_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB206_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=SHH assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB206 SHH H3K27Ac
+type bigWig
+color 192,0,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB26_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB26_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB26 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB28_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB28_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=SHH assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB28 SHH H3K27Ac
+type bigWig
+color 192,0,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB35_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB35_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=SHH assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB35 SHH H3K27Ac
+type bigWig
+color 192,0,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB36_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB36_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB36 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB37_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB37_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=SHH assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB37 SHH H3K27Ac
+type bigWig
+color 192,0,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB38_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB38_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB38 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB40_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB40_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB40 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB40_LHX2_treat_afterfiting_all.bw
+bigDataUrl tracks/MB40_LHX2_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=LHX2
+shortLabel  LHX2 ChIP
+longLabel MB40 GROUP4 LHX2
+type bigWig
+color 192,0,255
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB40_LMX1A_treat_afterfiting_all.bw
+bigDataUrl tracks/MB40_LMX1A_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=LMX1A
+shortLabel  LMX1A ChIP
+longLabel MB40 GROUP4 LMX1A
+type bigWig
+color 192,0,55
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB64_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB64_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB64 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB7_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB7_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB7 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB90_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB90_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB90 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB91_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB91_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB91 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB95_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB95_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB95 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB9_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MB9_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MB9 GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MBRep_T72_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MBRep_T72_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP4 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MBRep_T72 GROUP4 H3K27Ac
+type bigWig
+color 79,98,40
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB_4M26_HLX_treat_afterfiting_all.bw
+bigDataUrl tracks/MB_4M26_HLX_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=HLX
+shortLabel  HLX ChIP
+longLabel MB_4M26 GROUP3 HLX
+type bigWig
+color 0,192,55
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MB_4M26_LHX2_treat_afterfiting_all.bw
+bigDataUrl tracks/MB_4M26_LHX2_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=LHX2
+shortLabel  LHX2 ChIP
+longLabel MB_4M26 GROUP3 LHX2
+type bigWig
+color 0,192,255
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track MED8A_H3K27Ac_treat_afterfiting_all.bw
+bigDataUrl tracks/MED8A_H3K27Ac_treat_afterfiting_all.bw
+parent SJGROUP on
+subGroups subgroups=GROUP3 assay=H3K27Ac
+shortLabel  H3K27ac ChIP
+longLabel MED8A GROUP3 H3K27Ac
+type bigWig
+color 255,192,0
+maxHeightPixels 100:16:8 
+alwaysZero on 
+autoScale on
+visibility pack
+
+
+track GROUP3-GROUP4_SE.bb
+bigDataUrl tracks/GROUP3-GROUP4_SE.bb
+parent SJSE on
+subGroups subgroups=GROUP3_GROUP4_SE
+shortLabel  GROUP3_GROUP4 SE
+longLabel GROUP3-GROUP4 super enhancer
+type bigBed 4
+visibility pack
+
+
+track GROUP3_SE.bb
+bigDataUrl tracks/GROUP3_SE.bb
+parent SJSE on
+subGroups subgroups=GROUP3_SE
+shortLabel  GROUP3 SE
+longLabel GROUP3 super enhancer
+type bigBed 4
+visibility pack
+
+
+track GROUP4_SE.bb
+bigDataUrl tracks/GROUP4_SE.bb
+parent SJSE on
+subGroups subgroups=GROUP4_SE
+shortLabel  GROUP4 SE
+longLabel GROUP4 super enhancer
+type bigBed 4
+visibility pack
+
+
+track SHH-WNT_SE.bb
+bigDataUrl tracks/SHH-WNT_SE.bb
+parent SJSE on
+subGroups subgroups=SHH_WNT_SE
+shortLabel  SHH_WNT SE
+longLabel SHH-WNT super enhancer
+type bigBed 4
+visibility pack
+
+
+track SHH_SE.bb
+bigDataUrl tracks/SHH_SE.bb
+parent SJSE on
+subGroups subgroups=SHH_SE
+shortLabel  SHH SE
+longLabel SHH super enhancer
+type bigBed 4
+visibility pack
+
+
+track WNT_SE.bb
+bigDataUrl tracks/WNT_SE.bb
+parent SJSE on
+subGroups subgroups=WNT_SE
+shortLabel  WNT SE
+longLabel WNT super enhancer
+type bigBed 4
+visibility pack
+
+
+track CONSERVED_SE.bb
+bigDataUrl tracks/CONSERVED_SE.bb
+shortLabel  Conserved SE
+longLabel CONSERVED super enhancer
+type bigBed 4
+visibility pack
